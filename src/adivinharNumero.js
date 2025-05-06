@@ -9,6 +9,7 @@
 
 function adivinharNumero(max, palpite) {
   // TODO: implementar função
+  return ((Math.random() * max) === palpite)? 'Acertou!' : 'Errou! Tente novamente!';
 }
 
 
